@@ -1,0 +1,28 @@
+{
+  "name": "reiks",
+  "version": "1.0.0",
+  "description": "Reiks Wallet, billetera y gestión de dispositivos",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "csurf": "^1.11.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "handlebars": "^4.7.7",
+    "helmet": "^6.0.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  }
+}
